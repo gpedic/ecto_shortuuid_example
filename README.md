@@ -1,6 +1,6 @@
 # ShortuuidExample
 
-Example usage of ecto_shortuuid for ShortUUID primary and foreign keys. I hope this example will allow you to quickly evaluate if this is something for you.
+Example usage of `ecto_shortuuid` for ShortUUID primary and foreign keys. I hope this example will allow you to quickly evaluate if this is something for you.
 
 ## Installation
 
@@ -123,4 +123,5 @@ iex> Ecto.UUID.load(<<84, 222, 235, 72, 107, 219, 75, 186, 186, 187, 216, 215, 2
 
 * shortuuid - [github](https://github.com/gpedic/ex_shortuuid), [hexdocs](https://hexdocs.pm/shortuuid/ShortUUID.html)
 * ecto_shortuuid - [github](https://github.com/gpedic/ecto_shortuuid), [hexdocs](https://hexdocs.pm/ecto_shortuuid/Ecto.ShortUUID.html)
-* Ecto.Schema - [hexdocs](https://hexdocs.pm/ecto/Ecto.Schema.html#module-schema-attributes)
+* Ecto.Schema binary_id config - [hexdocs](https://hexdocs.pm/ecto/Ecto.Schema.html#module-schema-attributes)
+* Ecto.Migration repo config - [hexdocs](https://hexdocs.pm/ecto_sql/Ecto.Migration.html#module-repo-configuration)
